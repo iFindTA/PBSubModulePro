@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2745B643020419ECF755FD /* libPods-PBNetService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4722529077E6A7227A49401 /* libPods-PBNetService.a */; };
+		FB90CC1D1DC7088F00D89360 /* PBNetService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB90CC131DC7088F00D89360 /* PBNetService.framework */; };
+		FB90CC221DC7088F00D89360 /* PBNetServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90CC211DC7088F00D89360 /* PBNetServiceTests.m */; };
+		FB90CC2F1DC708AF00D89360 /* PBNetService.h in Headers */ = {isa = PBXBuildFile; fileRef = FB90CC2D1DC708AF00D89360 /* PBNetService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB90CC301DC708AF00D89360 /* PBNetService.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90CC2E1DC708AF00D89360 /* PBNetService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB90CC1E1DC7088F00D89360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB90CC0A1DC7088F00D89360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB90CC121DC7088F00D89360;
+			remoteInfo = PBNetService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91964B163550C875C30E046C /* Pods-PBNetService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBNetService.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PBNetService/Pods-PBNetService.debug.xcconfig"; sourceTree = "<group>"; };
+		A4722529077E6A7227A49401 /* libPods-PBNetService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBNetService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB4243D7EFB5110E09D0CE8 /* Pods-PBNetService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBNetService.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PBNetService/Pods-PBNetService.release.xcconfig"; sourceTree = "<group>"; };
+		FB90CC131DC7088F00D89360 /* PBNetService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBNetService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB90CC171DC7088F00D89360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB90CC1C1DC7088F00D89360 /* PBNetServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PBNetServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB90CC211DC7088F00D89360 /* PBNetServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBNetServiceTests.m; sourceTree = "<group>"; };
+		FB90CC231DC7088F00D89360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB90CC2D1DC708AF00D89360 /* PBNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNetService.h; sourceTree = "<group>"; };
+		FB90CC2E1DC708AF00D89360 /* PBNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBNetService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB90CC0F1DC7088F00D89360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2745B643020419ECF755FD /* libPods-PBNetService.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB90CC191DC7088F00D89360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB90CC1D1DC7088F00D89360 /* PBNetService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B98D0006FF0E5A6BE0EBA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91964B163550C875C30E046C /* Pods-PBNetService.debug.xcconfig */,
+				CDB4243D7EFB5110E09D0CE8 /* Pods-PBNetService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA1FCDD4F841D161447236DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4722529077E6A7227A49401 /* libPods-PBNetService.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB90CC091DC7088F00D89360 = {
+			isa = PBXGroup;
+			children = (
+				FB90CC151DC7088F00D89360 /* PBNetService */,
+				FB90CC201DC7088F00D89360 /* PBNetServiceTests */,
+				FB90CC141DC7088F00D89360 /* Products */,
+				1B98D0006FF0E5A6BE0EBA28 /* Pods */,
+				EA1FCDD4F841D161447236DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB90CC141DC7088F00D89360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB90CC131DC7088F00D89360 /* PBNetService.framework */,
+				FB90CC1C1DC7088F00D89360 /* PBNetServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB90CC151DC7088F00D89360 /* PBNetService */ = {
+			isa = PBXGroup;
+			children = (
+				FB90CC171DC7088F00D89360 /* Info.plist */,
+				FB90CC2D1DC708AF00D89360 /* PBNetService.h */,
+				FB90CC2E1DC708AF00D89360 /* PBNetService.m */,
+			);
+			path = PBNetService;
+			sourceTree = "<group>";
+		};
+		FB90CC201DC7088F00D89360 /* PBNetServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB90CC211DC7088F00D89360 /* PBNetServiceTests.m */,
+				FB90CC231DC7088F00D89360 /* Info.plist */,
+			);
+			path = PBNetServiceTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FB90CC101DC7088F00D89360 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB90CC2F1DC708AF00D89360 /* PBNetService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB90CC121DC7088F00D89360 /* PBNetService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB90CC271DC7088F00D89360 /* Build configuration list for PBXNativeTarget "PBNetService" */;
+			buildPhases = (
+				6B97D78DEAC76D5BAAACA172 /* [CP] Check Pods Manifest.lock */,
+				FB90CC0E1DC7088F00D89360 /* Sources */,
+				FB90CC0F1DC7088F00D89360 /* Frameworks */,
+				FB90CC101DC7088F00D89360 /* Headers */,
+				FB90CC111DC7088F00D89360 /* Resources */,
+				2324DEAB0506285010B55480 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBNetService;
+			productName = PBNetService;
+			productReference = FB90CC131DC7088F00D89360 /* PBNetService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB90CC1B1DC7088F00D89360 /* PBNetServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB90CC2A1DC7088F00D89360 /* Build configuration list for PBXNativeTarget "PBNetServiceTests" */;
+			buildPhases = (
+				FB90CC181DC7088F00D89360 /* Sources */,
+				FB90CC191DC7088F00D89360 /* Frameworks */,
+				FB90CC1A1DC7088F00D89360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB90CC1F1DC7088F00D89360 /* PBXTargetDependency */,
+			);
+			name = PBNetServiceTests;
+			productName = PBNetServiceTests;
+			productReference = FB90CC1C1DC7088F00D89360 /* PBNetServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB90CC0A1DC7088F00D89360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = nanhu;
+				TargetAttributes = {
+					FB90CC121DC7088F00D89360 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4WJ4F55RGP;
+						ProvisioningStyle = Automatic;
+					};
+					FB90CC1B1DC7088F00D89360 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4WJ4F55RGP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB90CC0D1DC7088F00D89360 /* Build configuration list for PBXProject "PBNetService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB90CC091DC7088F00D89360;
+			productRefGroup = FB90CC141DC7088F00D89360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB90CC121DC7088F00D89360 /* PBNetService */,
+				FB90CC1B1DC7088F00D89360 /* PBNetServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB90CC111DC7088F00D89360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB90CC1A1DC7088F00D89360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2324DEAB0506285010B55480 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PBNetService/Pods-PBNetService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B97D78DEAC76D5BAAACA172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB90CC0E1DC7088F00D89360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB90CC301DC708AF00D89360 /* PBNetService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB90CC181DC7088F00D89360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB90CC221DC7088F00D89360 /* PBNetServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB90CC1F1DC7088F00D89360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB90CC121DC7088F00D89360 /* PBNetService */;
+			targetProxy = FB90CC1E1DC7088F00D89360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB90CC251DC7088F00D89360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB90CC261DC7088F00D89360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB90CC281DC7088F00D89360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91964B163550C875C30E046C /* Pods-PBNetService.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4WJ4F55RGP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PBNetService/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBNetService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB90CC291DC7088F00D89360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB4243D7EFB5110E09D0CE8 /* Pods-PBNetService.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4WJ4F55RGP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PBNetService/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBNetService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB90CC2B1DC7088F00D89360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4WJ4F55RGP;
+				INFOPLIST_FILE = PBNetServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBNetServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB90CC2C1DC7088F00D89360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4WJ4F55RGP;
+				INFOPLIST_FILE = PBNetServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBNetServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB90CC0D1DC7088F00D89360 /* Build configuration list for PBXProject "PBNetService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB90CC251DC7088F00D89360 /* Debug */,
+				FB90CC261DC7088F00D89360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB90CC271DC7088F00D89360 /* Build configuration list for PBXNativeTarget "PBNetService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB90CC281DC7088F00D89360 /* Debug */,
+				FB90CC291DC7088F00D89360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB90CC2A1DC7088F00D89360 /* Build configuration list for PBXNativeTarget "PBNetServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB90CC2B1DC7088F00D89360 /* Debug */,
+				FB90CC2C1DC7088F00D89360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB90CC0A1DC7088F00D89360 /* Project object */;
+}
